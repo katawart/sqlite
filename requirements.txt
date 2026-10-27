@@ -1,0 +1,18 @@
+System overview
+Create a simple Python application that uses an SQLite database to store student details. The application will use a GUI form, a database handling class and a connecting class.
+Functional requirements
+ID	Requirement
+FR01	The system must display a GUI form for entering student details.
+FR02	The form must contain three fields: Name, Class and Course.
+FR03	The system must allow the user to submit student details using an Add Student button.
+FR04	The system must save the student details to an SQLite database.
+FR05	The system must display a confirmation message when a student is saved successfully.
+FR06	The system must use a separate class to handle database operations.
+FR07	The system must use a connecting class to link the GUI to the database handling class.
+
+Class responsibilities
+- GUI class: Displays the form and collects student details.
+- Connecting class: Passes student details from the GUI to the database class.
+- Database class: Connects to SQLite and saves the student record.
+Success criteria
+The application is complete when a user can enter a student's name, class and course, click Add Student, and save the details to the SQLite database.
